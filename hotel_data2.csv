@@ -1,0 +1,9 @@
+103,Thomas O'Neill,2,100.0,Corporate Room,3,2
+104,Stephen Byrne,2,100.0,Corporate Room,4,2
+203,Mary Smith,4,150.0,Standard,Single Bed, Double Windows
+204,Luke Byrne,6,150.50,Standard,Double Bed,Double Window
+# Comments
+# - The First is Corporate Room with 3 chairs and 2 bathrooms each.
+# - The Second is a Corporate Room with 4 chairs and 2 bathrooms each.
+# - The Third is a Standard Room with a Single Bed and Double Windows.
+# - The Fourth is another Standard Room with a Double Bed and Double Window.

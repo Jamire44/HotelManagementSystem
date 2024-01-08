@@ -11,11 +11,16 @@ import java.util.List;
 public class MainHotelManagementApp{
     public static void main(String[] args) {
 
-        String filePath = "/Users/jamiedoyle499/Desktop/CiaraVS/src/HotelManagementSystem/hotel_data.csv";
-        List<AbstractHotelRoom> rooms = HotelFileReader.readHotelDataFromFile(filePath);
+        List<AbstractHotelRoom> rooms = HotelFileReader.readHotelDataFromFile("/Users/jamiedoyle499/Desktop/CiaraVS/src/HotelManagementSystem/hotel_data.csv");
+        List<AbstractHotelRoom> moreRooms = HotelFileReader.readHotelDataFromFile("/Users/jamiedoyle499/Desktop/CiaraVS/src/HotelManagementSystem/hotel_data2.csv");
 
 
         for (AbstractHotelRoom room : rooms){
+            System.out.println(room);
+            System.out.println("-----------------------");
+        }
+
+        for (AbstractHotelRoom room : moreRooms){
             System.out.println(room);
             System.out.println("-----------------------");
         }
