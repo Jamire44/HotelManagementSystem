@@ -1,0 +1,8 @@
+101,Jamie Doyle,1,100.0,Corporate Room,4,2
+102,Michael Doyle,2,100.0,Corporate Room,4,2
+201,Jane Smith,2,150.0,Standard,Single Bed, Double Windows
+202,Marge Doyle,5,150.50,Standard,Double Bed,Double Window
+# Comments
+# - The first two rows are Corporate Rooms with 4 chairs and 2 bathrooms each.
+# - The third row is a Standard Room with a Single Bed and Double Windows.
+# - The fourth row is another Standard Room with a Double Bed and Double Window.
